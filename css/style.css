@@ -441,3 +441,33 @@ body.dark-mode .dark-btn {
     background: #333;
     color: white;
 }
+/* Register link design */
+.register-link {
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 12px;
+    padding-top: 16px;
+    border-top: 1px solid #e5e7eb;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #64748b;
+}
+
+.register-link a {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 7px 15px;
+    background: #eaf2ff;
+    color: #0866d5;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.register-link a:hover {
+    background: #0866d5;
+    color: #ffffff;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
